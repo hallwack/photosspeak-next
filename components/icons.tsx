@@ -2,6 +2,7 @@ import {
   Laptop,
   LucideProps,
   Moon,
+  Search,
   SunMedium,
   Twitter,
   type Icon as LucideIcon,
@@ -27,4 +28,5 @@ export const Icons = {
       ></path>
     </svg>
   ),
+  search: Search,
 }
