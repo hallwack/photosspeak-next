@@ -1,4 +1,5 @@
 const { fontFamily } = require("tailwindcss/defaultTheme")
+const colors = require("tailwindcss/colors")
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -13,6 +14,10 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        'primary': "#212020",
+        'secondary': colors.red,
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
